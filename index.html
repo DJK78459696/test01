@@ -3,8 +3,8 @@
 <html lang="en">
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>59期士高乙班第三次準則學科測驗系統</title>
     <script>
 	/*
@@ -6874,7 +6874,38 @@ data={
 	.left{
 	    text-align: left;
 	}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
 
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    select, label {
+        font-size: medium;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        transform: scale(1);
+    }
+
+    p, .cwLabel {
+        font-size: medium;
+    }
+}
     </style>
 </head>
 
